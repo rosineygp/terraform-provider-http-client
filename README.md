@@ -14,7 +14,7 @@ terraform {
   required_providers {
     httpclient = {
       version = "1.0.0"
-      source  = "github.com/dmachard/http-client"
+      source  = "github.com/rosineygp/http-client"
     }
   }
 }
@@ -38,4 +38,4 @@ output "response_code" {
 }
 ```
 
-For detailed usage see [provider's documentation page](https://registry.terraform.io/providers/dmachard/http-client/latest/docs)
+For detailed usage see [provider's documentation page](https://registry.terraform.io/providers/rosineygp/http-client/latest/docs)
